@@ -1,0 +1,20 @@
+.value-change-icon {
+    display: inline-block;
+  }
+  
+  .icon {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .icon:hover {
+    transform: scale(1.2);
+  }
+  
+  .increased {
+    fill: #1C1BA5;
+  }
+  
+  .decreased {
+    fill: #FF0000;
+  }
+  

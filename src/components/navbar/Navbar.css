@@ -1,0 +1,77 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px; /* Adjust padding based on your design */
+  background-color : F5F5F5; /* Set your desired background color */
+  height: 80px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+}
+input::placeholder {
+  color: #98A1B0; /* Replace with your desired color */
+}
+
+.transparent-input {
+  width: 675px; /* Set the desired width */
+  height: 51px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: white;
+  caret-color: white;
+  font-size: 16px;
+  margin-left: 10px;
+  color: #98A1B0; /* Set the desired text color */
+  caret-color: #98A1B0;
+  box-shadow: 0 0 10px rgba(245, 245, 245, 0.7);
+}
+
+.search-icon {
+  color: #98A1B0;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-button {
+  padding: 10px;
+  background-color: #2ecc71; /* Set your desired background color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.rounded-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.navbar-text {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin-left: 5px;
+}
+
+.navbar-container {
+  flex: 1; 
+justify-content: flex-end;
+align-items: center;
+
+}
+
+.user-details {
+  margin-left: 100px;
+  display: flex;
+}

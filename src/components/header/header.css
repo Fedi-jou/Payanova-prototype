@@ -1,0 +1,15 @@
+/* header.css */
+
+
+
+.main-text {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.sub-text {
+  margin-top: 0;
+  font-size: 18px;
+  color: #98A1B0;
+}

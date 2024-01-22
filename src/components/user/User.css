@@ -1,0 +1,56 @@
+.user-button {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    color: #1C1BA5;
+    width: 142px;
+    height: 33px;
+  }
+  
+  .user-display {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  
+  .username {
+    font-weight: bold; /* Adding bold font for owner */
+  }
+  
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown button {
+    color: #1C1BA5;
+    background-color: transparent;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  .dropdown-content {
+    background-color: gray;
+    display: none;
+    position: absolute;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    left: auto; /* Resetting the left position */
+  }
+  
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #0D0C60;
+  }
+  
+  .dropdown.show .dropdown-content {
+    display: block;
+    right: 0; /* Aligning the dropdown content to the right */
+  }
+  
