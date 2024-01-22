@@ -1,5 +1,3 @@
-# React + Vite
-# ReactJS Project README
 
 ## Project Overview
 
